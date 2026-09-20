@@ -351,7 +351,7 @@ const chapter1 = {
         </div>
 
         <div class="ch1-proceed-area">
-          <button class="proceed-btn" id="ch1-proceed">Access Memory Archive</button>
+          <button class="proceed-btn" id="ch1-proceed">Access Photo Archive</button>
         </div>
 
       </div>
@@ -1051,12 +1051,11 @@ const chapter7 = {
 export const Chapters = [
   chapter0,   // 0 — Cinematic Intro
   chapter1,   // 1 — JANA Database
-  chapter2,   // 2 — Memory Archive
-  chapter3,   // 3 — Photo Archive
-  chapter4,   // 4 — Songs
-  chapter5,   // 5 — 21
-  chapter6,   // 6 — Do Not Open
-  chapter7,   // 7 — Final Ending
+  chapter3,   // 2 — Photo Archive
+  chapter4,   // 3 — Songs
+  chapter5,   // 4 — 21
+  chapter6,   // 5 — Do Not Open
+  chapter7,   // 6 — Final Ending
 ];
 
 

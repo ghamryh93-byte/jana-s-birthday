@@ -3,10 +3,10 @@
 //  Boots the experience, wires all systems together.
 // ════════════════════════════════════════════════════════════
 
-import { CONTENT }        from './content.js?v=16';
+import { CONTENT }        from './content.js?v=17';
 import { ParticleSystem, AudioManager } from './effects.js';
 import { Transitions }    from './transitions.js';
-import { Chapters }       from './chapters.js?v=16';
+import { Chapters }       from './chapters.js?v=17';
 
 // ─── Birthday detection ───────────────────────────────────
 const isBirthday = (() => {
