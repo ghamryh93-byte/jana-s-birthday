@@ -535,7 +535,7 @@ const chapter4 = {
               </span>
             </button>
           </div>
-          <div class="ch4-song-why">&ldquo;${escHtml(s.why)}&rdquo;</div>
+          ${s.why ? `<div class="ch4-song-why">&ldquo;${escHtml(s.why)}&rdquo;</div>` : ''}
 
           <div class="ch4-player" id="ch4-player-${i}">
             <div class="ch4-player-bar">
